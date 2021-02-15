@@ -4,11 +4,11 @@
 }
 
 a:hover {
+    color: blue; 
     /* font-weight: 400; */
     /*text-decoration: none;*/
     transition-duration: 0.3s;
     transition-timing-function: linear;
-    color: #00468b; 
 }
 
 
