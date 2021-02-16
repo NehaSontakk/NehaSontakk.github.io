@@ -3,7 +3,7 @@ const fontname = "Roboto|Barlow";
 const fontweights = [500, 600]
 
 // Color properties
-const basecolor = "#888";
+const basecolor = "#464546";
 const accentcolor = "#222";
 const highlightcolor = "#111";
 
