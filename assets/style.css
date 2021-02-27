@@ -2,13 +2,17 @@
     height: 50px;
     filter: grayscale(20%);
 }
-
+/*
 a:hover {
     color: blue; 
     /* font-weight: 400; */
     text-decoration: underline;
     transition-duration: 0.3s;
     transition-timing-function: linear;
+}
+*/
+a:hover {
+  color: hotpink;
 }
 
 
