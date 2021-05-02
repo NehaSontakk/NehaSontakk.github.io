@@ -21,7 +21,10 @@ const acolor = accentcolor;
 const adecoration = "none";
 const ahovercolor = "blue";
 // const ahoverduration = "0.3s";
-const ahoverdecoration = "underline"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
+const ahoverdecoration = "underline"; 
+
+// Button properties
+const bhovercolor = "#ececec";
 
 // Menu properties
 const menucolor = basecolor;
@@ -86,6 +89,8 @@ $("body").css("background-color", backgroundcolor);
 
 $("a").css("color", acolor);
 $("a").css("text-decoration", adecoration);
+
+$("button").css("hover-color", bhovercolor)
 
 $(".menulink").css("color", menucolor);
 $(".menulink").css("font-size", menufontsize);
