@@ -44,7 +44,7 @@ const namefontsize = "23pt";
 
 // Publication properties
 const ptitlecolor = "#003366";
-const ptitlefontsize = bodyfontsize;
+const ptitlefontsize = "13pt";
 const ptitleweight = 500;
 const ptitledecoration = "none";
 const ptitlestyle = "normal";
