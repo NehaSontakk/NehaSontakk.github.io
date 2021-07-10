@@ -14,6 +14,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style> .abutton{background-color:#fff;color:#1c2951;border:solid;border-radius:0px;padding:3px 6px;border-width:thin;font-size:15px; transition: 0.17s linear;} .abutton:hover{background-color: #1c2951; color: #fff; } </style>
     <title>Neha Sontakke</title>
@@ -145,7 +146,33 @@
                      <button class="abutton" onclick="window.location.href='https://www.youtube.com/watch?v=1lWMA51K_cc&list=PLHuzC-3ezoWYScr3EFAFYPwCkOPRVeu2u&index=21';" target="_blank">video</button><span class="tagsep"> </span>
                      <button class="abutton" onclick="window.location.href='https://www.researchgate.net/publication/344280561_Operationalizing_Explainability_In_Robo-Advisory_Applications_For_Regulators';" target="_blank">poster</button>
                  </p>
+<!--Slider Element -->
+
+<div class="slideshow-container">
+<div class="mySlides">
+  <img src="images/poster/slide1.png" style="width:50%">
+</div>
+<div class="mySlides">
+  <img src="images/poster/slide2.png" style="width:50%">
+</div>
+<div class="mySlides">
+  <img src="images/poster/slide3.png" style="width:50%">
+</div>
+<div class="mySlides">
+  <img src="images/poster/slide4.png" style="width:50%">
+</div>
+</div>
+<br>
+<div>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
                  </div>
+
+
            <div class="py-2">
                  <p class="paper my-2 pl-2">
                    <span class="papertitle">Explainable AI For RegTech Tools.<br>
@@ -201,6 +228,27 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="assets/style.js"></script>
+ <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000);
+}
+</script>
 </body>
   <style>
   </style>
