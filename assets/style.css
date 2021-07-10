@@ -1,16 +1,17 @@
 .mySlides {display: none;}
-img {
-vertical-align: left;
-border-style: solid;
-border-color: grey;
-border-size: 50px;
-}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
   position: left;
   margin: auto;
+  
+  img {
+vertical-align: left;
+border-style: solid;
+border-color: black;
+border-size: 50px;
+}
 }
 
 /* The dots/bullets/indicators */
