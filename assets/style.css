@@ -6,12 +6,6 @@
   position: left;
   margin: auto;
   
-  img {
-vertical-align: left;
-border-style: solid;
-border-color: black;
-border-size: 50px;
-}
 }
 
 /* The dots/bullets/indicators */
